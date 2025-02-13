@@ -1,0 +1,141 @@
+ .header {
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+
+ .navigation {
+     flex: 1;
+     width: 100%;
+     height: 50px;
+     background-color: black;
+
+
+ }
+
+ .navigation h1 {
+     /* display: flex; */
+     color: white;
+     font-size: 14px;
+     left: auto;
+     padding: 15px 20px;
+     font-family: sans-serif;
+ }
+
+
+ @media (max-width: 78px) {
+     .header {
+         flex-direction: column;
+         align-items: center;
+         background-color: red;
+     }
+
+     .div1 {
+         padding: 20px;
+         margin: 60px auto;
+         max-width: 90%;
+     }
+
+     .navigation {
+         width: 100%;
+         height: auto;
+     }
+
+     .navigation h1 {
+         font-size: 19px;
+         padding: 10px 15px;
+     }
+
+     .logo,
+     .you,
+     .x,
+     .facebook,
+     .location {
+         width: 30px;
+         height: auto;
+     }
+
+     .locationname {
+         font-size: 10px;
+         right: 10px;
+     }
+ }
+
+ /* instagram logo all image aa cover panthu */
+
+ .logo {
+     position: absolute;
+     top: 6px;
+     right: 19px;
+     cursor: pointer;
+ }
+
+ .logo img {
+     width: 40px;
+     height: auto;
+     transition: transfrorm 0.3s ease;
+ }
+
+ .logo img:hover {
+     transform: scale(1.4);
+ }
+
+ /* youtube logo */
+ .you {
+     position: absolute;
+     top: 6px;
+     right: 36px;
+ }
+
+ .you img {
+     width: 29px;
+     height: auto;
+ }
+
+ /* x logo */
+ .x {
+     position: absolute;
+     top: 11px;
+     right: 65px;
+ }
+
+ .x img {
+     width: 31px;
+     height: auto;
+ }
+
+ /* facebook */
+ .facebook {
+     position: absolute;
+     top: 6px;
+     right: 97px;
+ }
+
+ .facebook img {
+     width: 31px;
+     height: auto;
+ }
+
+ .location {
+     position: absolute;
+     top: 9px;
+     right: 310px;
+     
+ }
+
+ .location img {
+     width: 20px;
+     height: auto;
+ }
+
+ .locationname {
+     position: absolute;
+     top: 26%;
+     right: 140px;
+     color: white;
+     font-size: 11px;
+     font-family: sans-serif;
+ }

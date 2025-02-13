@@ -1,0 +1,39 @@
+.bg{
+    position: absolute;
+    top:-20px;
+    left: -1px;
+    width: 220px;
+}
+
+.getstart{
+
+    position: absolute;
+    top:75px;
+    left: 85%;
+    width: 8%;
+    font-size: 15px;
+    background-color:#0672EF;
+    color: white;
+    font-family: sans-serif;
+    box-shadow:  5px 5px 5px rgb(0,0,0, 0.3 );
+    padding:10px 10px 10px 10px;
+    border-radius: 5px;
+    border: #0672EF;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.navlinks{
+    position:absolute;
+    list-style-type: none;
+    width: 100px;
+    left: 40%;
+    top: 80px;
+    column-gap:60px;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+}
